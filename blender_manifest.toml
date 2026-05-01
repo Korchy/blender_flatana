@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+
+id = "flatana"
+version = "1.0.0"
+name = "Flatana"
+tagline = "Flatten all polygons on a mesh"
+maintainer = "Mikhail Soluyanov, Nikita Akimov<interplanety@interplanety.org>"
+type = "add-on"
+blender_version_min = "5.1.0"
+license = [
+   "SPDX:GPL-3.0-or-later",
+]
+tags = ['Modeling', 'Mesh']
+website = "https://b3d.interplanety.org/en/blender-extension-flatana/"
