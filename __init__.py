@@ -8,6 +8,12 @@ else:
     from . import flatana_ops
     from . import flatana_panel
 
+bl_info = {
+    'name': 'Flatana',
+    'category': 'Mesh',
+    'version': (1, 0, 0),
+    'blender': (5, 1, 0),
+}
 
 def register():
     flatana_vars.register()
