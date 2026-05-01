@@ -35,6 +35,7 @@ class Flatana:
                 )
             bm.to_mesh(obj.data)
             bm.free()
+            obj.data.update()
             bpy.ops.object.mode_set(mode=obj_mode)
 
     @staticmethod
